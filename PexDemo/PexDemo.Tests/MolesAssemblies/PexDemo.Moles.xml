@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PexDemo.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:PexDemo.Moles.MEmployee">
+            <summary>Mole type of <see cref="T:PexDemo.Employee"/>
+            .</summary>
+        </member>
+        <member name="M:PexDemo.Moles.MEmployee.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:PexDemo.Moles.MEmployee.#ctor(PexDemo.Employee)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:PexDemo.Moles.MEmployee.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:PexDemo.Moles.MEmployee.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PexDemo.Moles.MEmployee.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PexDemo.Moles.MEmployee.CalculateSalaryInt32">
+            <summary>Sets the mole of <see cref="M:PexDemo.Employee.CalculateSalary(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:PexDemo.Moles.MEmployee.Constructor">
+            <summary>Sets the mole of <see cref="M:PexDemo.Employee.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:PexDemo.Moles.MEmployee.GetMd5HashMD5String">
+            <summary>Sets the mole of <see cref="M:PexDemo.Employee.GetMd5Hash(System.Security.Cryptography.MD5,System.String)"/>
+            </summary>
+        </member>
+        <member name="T:PexDemo.Moles.MEmployee.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:PexDemo.Moles.MEmployee.AllInstances.CalculateSalaryInt32">
+            <summary>Sets the mole of <see cref="M:PexDemo.Employee.CalculateSalary(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:PexDemo.Moles.MEmployee.AllInstances.GetMd5HashMD5String">
+            <summary>Sets the mole of <see cref="M:PexDemo.Employee.GetMd5Hash(System.Security.Cryptography.MD5,System.String)"/>
+            </summary>
+        </member>
+        <member name="T:PexDemo.Moles.SEmployee">
+            <summary>Stub type of <see cref="T:PexDemo.Employee"/>
+            .</summary>
+        </member>
+        <member name="M:PexDemo.Moles.SEmployee.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:PexDemo.Moles.SEmployee.InitializeStub">
+            <summary>Initializes a new instance of type SEmployee</summary>
+        </member>
+        <member name="P:PexDemo.Moles.SEmployee.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:PexDemo.Moles.SEmployee.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>

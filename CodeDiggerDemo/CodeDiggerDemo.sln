@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeDiggerDemo", "CodeDiggerDemo\CodeDiggerDemo.csproj", "{E6D6117A-F753-481A-8F2E-7EBD5A44F747}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{4E96BDD1-CFA6-45D8-814C-2F06C1120A02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6D6117A-F753-481A-8F2E-7EBD5A44F747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6D6117A-F753-481A-8F2E-7EBD5A44F747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6D6117A-F753-481A-8F2E-7EBD5A44F747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6D6117A-F753-481A-8F2E-7EBD5A44F747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E96BDD1-CFA6-45D8-814C-2F06C1120A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E96BDD1-CFA6-45D8-814C-2F06C1120A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E96BDD1-CFA6-45D8-814C-2F06C1120A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E96BDD1-CFA6-45D8-814C-2F06C1120A02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
